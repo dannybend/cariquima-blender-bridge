@@ -34,11 +34,27 @@ week, and Cariquima offers to open them as soon as it is running.
 
 Requires **Blender 4.2 or newer** (tested on 5.1).
 
+### From the extension repository (recommended: updates arrive inside Blender)
+
+1. *Edit > Preferences > Get Extensions*, open the **Repositories** menu (⌄,
+   top right) and press **+ > Add Remote Repository**.
+2. Paste this URL and press OK:
+
+   ```
+   https://dannybend.github.io/cariquima-blender-bridge/index.json
+   ```
+
+3. Search for **Send to Cariquima** in *Get Extensions* and press **Install**.
+   From then on, new versions show up in Blender's own update list.
+
+### From a ZIP
+
 1. Download `cariquima_bridge-x.y.z.zip` from
    [Releases](https://github.com/dannybend/cariquima-blender-bridge/releases).
 2. Drag the ZIP onto the Blender window, or go to *Edit > Preferences > Get
    Extensions > ⌄ > Install from Disk…*
-3. Open the 3D View sidebar (**N**) and choose the **Cariquima** tab.
+
+Either way, the panel is in the 3D View sidebar (**N**), **Cariquima** tab.
 
 Optional: in the add-on preferences, set the path to `Cariquima.exe` so the
 panel can open it for you.
