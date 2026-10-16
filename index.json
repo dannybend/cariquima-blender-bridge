@@ -1,0 +1,31 @@
+{
+  "version": "v1",
+  "blocklist": [],
+  "data": [
+    {
+      "schema_version": "1.0.0",
+      "id": "cariquima_bridge",
+      "name": "Send to Cariquima",
+      "tagline": "Send your low-poly and high-poly to Cariquima in one click",
+      "version": "1.2.0",
+      "type": "add-on",
+      "maintainer": "dannybend",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "website": "https://github.com/dannybend/cariquima-blender-bridge",
+      "permissions": {
+        "files": "Write the selection as GLB to the folder Cariquima reads"
+      },
+      "tags": [
+        "Import-Export",
+        "Paint",
+        "Bake"
+      ],
+      "archive_url": "./cariquima_bridge-1.2.0.zip",
+      "archive_size": 8300,
+      "archive_hash": "sha256:db231cf1ab6c9ff7096d75971fbff0266fea2d1961b545e1f53a77cd9b998d78"
+    }
+  ]
+}
