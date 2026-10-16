@@ -1,0 +1,19 @@
+schema_version = "1.0.0"
+
+id = "cariquima_bridge"
+version = "1.2.0"
+name = "Send to Cariquima"
+tagline = "Send your low-poly and high-poly to Cariquima in one click"
+maintainer = "dannybend"
+type = "add-on"
+
+website = "https://github.com/dannybend/cariquima-blender-bridge"
+
+tags = ["Import-Export", "Paint", "Bake"]
+
+blender_version_min = "4.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+
+[permissions]
+files = "Write the selection as GLB to the folder Cariquima reads"
